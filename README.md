@@ -169,6 +169,21 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ---
 
+---
+
+## 🧭 Reviewer Guide: What to Look For
+
+If you are evaluating this repository for an **AI Engineering** or **MLOps** role, here is where to find key competence signals:
+
+| Competence Signal | Where to Evidence it |
+| :--- | :--- |
+| **System Thinking** | See [System Architecture](#-system-architecture-conceptual) |
+| **Production Standards** | See [Core Design Principles](#-core-design-principles) |
+| **Lifecycle Awareness** | See [AI Project Lifecycle](#-ai-project-lifecycle-supported-by-this-template) |
+| **Tooling & Ops** | See [MLOps & Production Readiness](#-mlops--production-readiness) |
+
+---
+
 ## 💡 How This Repository Is Used as a Portfolio
 
 This repository serves as:
