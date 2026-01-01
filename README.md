@@ -20,6 +20,23 @@ It allows engineers to move away from "spaghetti code" notebooks to maintainable
 
 ---
 
+## 💡 Why This Repository Exists
+
+Most AI projects fail to transition from experimentation to production.
+
+Common issues include:
+- Notebook-centric development with hidden state
+- Tight coupling between data, models, and evaluation
+- No clear path from training to deployment
+- Lack of testing, reproducibility, and documentation
+
+This repository was created to **solve those problems at the architectural level**.
+
+It provides a **repeatable, production-oriented blueprint** for building AI systems
+that can evolve from research experiments into deployable, maintainable products.
+
+---
+
 ## 🏗️ Project Architecture
 
 This template enforces a strict separation between data, source code, and experiments.
