@@ -90,6 +90,20 @@ yassinebenacha/
 
 ## 🔄 AI Project Lifecycle Supported by This Template
 
+```mermaid
+flowchart TD
+    A[1. Problem Definition] --> B[2. Data Ingestion]
+    B --> C[3. Experimentation]
+    C -->|Hypothesis Verified| D[4. Model Engineering]
+    D --> E[5. Training & Eval]
+    E -->|Metrics OK| F[6. Testing & Validation]
+    F -->|Tests Pass| G[7. Deployment Readiness]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style D fill:#bbf,stroke:#333,stroke-width:2px
+    style G fill:#bfb,stroke:#333,stroke-width:2px
+```
+
 This template is designed to support the full AI engineering lifecycle:
 
 1. **Problem Definition**
@@ -118,6 +132,18 @@ This template is designed to support the full AI engineering lifecycle:
    - Clear path toward API or batch inference systems
 
 ## ⚙️ MLOps & Production Readiness
+
+```mermaid
+graph LR
+    Dev[Developer] -->|Push Code| Git[GitHub]
+    Git -->|Trigger| CI[CI/CD Pipeline]
+    CI -->|Run Tests| Test[Pytest]
+    Test -->|Build| Docker[Docker Image]
+    Docker -->|Deploy| Reg[Registry]
+    
+    style CI fill:#f96,stroke:#333,stroke-width:2px
+    style Docker fill:#69f,stroke:#333,stroke-width:2px
+```
 
 This template is designed to integrate naturally with MLOps tooling, including:
 
@@ -205,6 +231,18 @@ He has worked on industrial AI projects at **Capgemini**, where he contributed t
 > **🟢 Open for Opportunities**: Yassine is currently seeking a **4-6 month internship** starting **January 2026**.
 
 ### 🧠 Expertise
+
+<div align="left">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <br/>
+  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+</div>
+
 *   **AI & Machine Learning**: PyTorch, TensorFlow, Scikit-learn, XGBoost.
 *   **NLP & LLMs**: Hugging Face Transformers, RAG Pipelines, LangChain, Gemini API.
 *   **MLOps & Engineering**: Docker, FastAPI, Streamlit, Git/CI-CD.
