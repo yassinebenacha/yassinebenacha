@@ -132,6 +132,17 @@ with enterprise-grade AI pipelines.
 
 ---
 
+## 🔮 Future Roadmap
+
+To further elevate this template to a "deploy-anywhere" standard, the following improvements are planned:
+
+- [ ] **Containerization**: Add `Dockerfile` and `docker-compose.yml` for reproducible environments.
+- [ ] **CI/CD Integration**: Implement GitHub Actions for automated linting (`ruff`), testing (`pytest`), and building.
+- [ ] **Infrastructure as Code**: Add Terraform scripts for cloud resource provisioning (AWS/Azure).
+- [ ] **Model Serving**: Integrate TorchServe or Triton Inference Server examples.
+
+---
+
 ## 🚀 Getting Started
 
 To use this template for a new AI project:
@@ -175,6 +186,8 @@ and reuse this structure to ensure consistency and quality.
 **Yassine Ben Acha** is an AI Engineer and final-year student at **ENIAD**, with a strong focus on Machine Learning, NLP, and production AI systems.
 
 He has worked on industrial AI projects at **Capgemini**, where he contributed to intelligent diagnostic systems using NLP, RAG pipelines, and explainable AI. His interests lie at the intersection of AI research and real-world deployment.
+
+> **🟢 Open for Opportunities**: Yassine is currently seeking a **4-6 month internship** starting **January 2026**.
 
 ### 🧠 Expertise
 *   **AI & Machine Learning**: PyTorch, TensorFlow, Scikit-learn, XGBoost.
