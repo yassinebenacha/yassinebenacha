@@ -37,7 +37,21 @@ that can evolve from research experiments into deployable, maintainable products
 
 ---
 
-## 🏗️ Project Architecture
+## 🏗️ System Architecture (Conceptual)
+
+```mermaid
+graph TD
+    A[Data Sources] --> B[data/raw]
+    B --> C[ETL / Preprocessing]
+    C --> D[data/processed]
+    D --> E[Feature Engineering]
+    E --> F[Model Training]
+    F --> G[Evaluation & Validation]
+    G --> H[Model Artifacts]
+    H --> I[Deployment / Inference Layer]
+```
+
+### 📂 Directory Structure
 
 This template enforces a strict separation between data, source code, and experiments.
 
@@ -55,10 +69,22 @@ yassinebenacha/
 └── 📄 README.md         # Documentation & Entry point
 ```
 
-### Key Design Principles
-1.  **Reproducibility**: Experiments in `notebooks/` must be refactored into `src/` functions for final runs.
-2.  **Modularity**: Model definitions are strictly separated from training loops.
-3.  **Data Versioning**: The `data/` directory structure supports clear lineage from raw inputs to processed vectors.
+## 🔥 Core Design Principles
+
+- **Separation of Concerns**
+  Data, models, training, and evaluation are strictly decoupled.
+
+- **Reproducibility First**
+  Every experiment should be repeatable from raw data to metrics.
+
+- **Scalability by Design**
+  Code structure supports growth from local experiments to cloud deployment.
+
+- **Framework Flexibility**
+  The template supports NLP, CV, and tabular ML use cases.
+
+- **Production Mindset**
+  Everything is designed with deployment, monitoring, and maintenance in mind.
 
 ---
 
