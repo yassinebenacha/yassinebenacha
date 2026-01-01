@@ -61,7 +61,7 @@ yassinebenacha/
 ├── 📂 notebooks/        # Jupyter notebooks for exploration (not for production code)
 ├── 📂 src/              # The core production codebase
 │   ├── 📂 pipeline/     # Data processing & ETL pipelines
-│   ├── � models/       # Model definitions (PyTorch/Transformers classes)
+│   ├── 📂 models/       # Model definitions (PyTorch/Transformers classes)
 │   └── 📂 utils/        # Shared utility functions
 ├── 📂 models/           # Serialized model weights & checkpoints
 ├── 📂 tests/            # Automated test suite (Pytest)
@@ -88,7 +88,51 @@ yassinebenacha/
 
 ---
 
-## � Getting Started
+## 🔄 AI Project Lifecycle Supported by This Template
+
+This template is designed to support the full AI engineering lifecycle:
+
+1. **Problem Definition**
+   - Clear separation between experimentation and production goals
+
+2. **Data Ingestion & Processing**
+   - Raw vs processed data separation
+   - Reproducible preprocessing pipelines
+
+3. **Experimentation**
+   - Rapid prototyping in `notebooks/`
+   - Feature exploration and hypothesis testing
+
+4. **Model Engineering**
+   - Modular model definitions in `src/`
+   - Framework-agnostic design (PyTorch / Transformers)
+
+5. **Training & Evaluation**
+   - Script-driven training (not notebook execution)
+   - Consistent evaluation logic
+
+6. **Testing & Validation**
+   - Unit and integration tests for critical components
+
+7. **Deployment Readiness**
+   - Clear path toward API or batch inference systems
+
+## ⚙️ MLOps & Production Readiness
+
+This template is designed to integrate naturally with MLOps tooling, including:
+
+- Experiment tracking (MLflow, Weights & Biases)
+- Model versioning and artifact storage
+- CI/CD pipelines (GitHub Actions)
+- API deployment (FastAPI)
+- Monitoring and retraining workflows
+
+While not implemented by default, the structure is intentionally compatible
+with enterprise-grade AI pipelines.
+
+---
+
+## 🚀 Getting Started
 
 To use this template for a new AI project:
 
@@ -114,11 +158,23 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ---
 
-## �‍💻 About the Author
+## 💡 How This Repository Is Used as a Portfolio
 
-**Yassine Ben Acha** is an AI Engineer and final-year student at **ENIAD**, specializing in Machine Learning, NLP, and Intelligent Systems.
+This repository serves as:
+- A personal AI engineering standard
+- A reusable base for future projects
+- A reference for recruiters to understand my engineering approach
 
-With a background in mathematics and computer science, I focus on building bridges between complex AI research and practical, high-impact applications.
+Concrete AI projects built on top of this template are linked separately
+and reuse this structure to ensure consistency and quality.
+
+---
+
+## 👨‍💻 About the Author
+
+**Yassine Ben Acha** is an AI Engineer and final-year student at **ENIAD**, with a strong focus on Machine Learning, NLP, and production AI systems.
+
+He has worked on industrial AI projects at **Capgemini**, where he contributed to intelligent diagnostic systems using NLP, RAG pipelines, and explainable AI. His interests lie at the intersection of AI research and real-world deployment.
 
 ### 🧠 Expertise
 *   **AI & Machine Learning**: PyTorch, TensorFlow, Scikit-learn, XGBoost.
