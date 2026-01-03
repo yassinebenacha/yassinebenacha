@@ -98,10 +98,14 @@ flowchart TD
     D --> E[5. Training & Eval]
     E -->|Metrics OK| F[6. Testing & Validation]
     F -->|Tests Pass| G[7. Deployment Readiness]
-    
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style D fill:#bbf,stroke:#333,stroke-width:2px
-    style G fill:#bfb,stroke:#333,stroke-width:2px
+
+    %% Style de base
+    classDef purple fill:#f9f,stroke:#333,stroke-width:2px
+    classDef blue fill:#bbf,stroke:#333,stroke-width:2px
+    classDef green fill:#bfb,stroke:#333,stroke-width:2px
+    class A purple
+    class D blue
+    class G green
 ```
 
 This template is designed to support the full AI engineering lifecycle:
