@@ -176,28 +176,19 @@ My personal portfolio showcasing projects, experience, and skills — built with
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=yassinebenacha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Stats"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=yassinebenacha&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
-
-<br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=yassinebenacha&theme=tokyonight&hide_border=true" alt="Streak"/>
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=yassinebenacha&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=8" alt="Trophies"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=yassinebenacha&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 
 </div>
 
----
-
-## 🐍 Contribution Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yassinebenacha&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph"/>
-
-</div>
+<!--
+  NOTE: The stats-card, top-languages, trophies and activity-graph widgets were removed
+  because their free PUBLIC instances are currently down (HTTP 503/402):
+    - github-readme-stats.vercel.app        (DEPLOYMENT_PAUSED)
+    - github-profile-trophy.vercel.app      (DEPLOYMENT_DISABLED)
+    - github-readme-activity-graph.vercel.app (DEPLOYMENT_DISABLED)
+  To restore them permanently, self-host github-readme-stats on your own Vercel account
+  and replace "github-readme-stats.vercel.app" with "<your-app>.vercel.app".
+-->
 
 ---
 
